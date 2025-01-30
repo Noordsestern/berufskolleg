@@ -2,9 +2,6 @@
 Library    Browser
 
 
-Test Tags           login    webui    smoke
-
-
 
 *** Test Cases ***
 Erfolgreichen Login Testen
