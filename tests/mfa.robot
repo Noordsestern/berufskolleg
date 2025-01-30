@@ -13,13 +13,12 @@ ${BROWSER_HEADLESS}     ${True}
 
 *** Test Cases ***
 Login Mit Falschen Daten Soll Fehlschlagen
-    [Tags]    negativ-test     KFW-1
-    Given Loginseite ist geöffnet
-    When Ungültigen Benutzer Einloggen
-    Then Fehlermeldung Für Ungültigen Benutzer Verifizieren
+    [Tags]    negativ-test
+    Loginseite ist geöffnet
+    Ungültigen Benutzer Einloggen
+    Fehlermeldung Für Ungültigen Benutzer Verifizieren
 
 Erfolgreichen Login Testen
-    [Tags]   KFW-2
     ${login_daten}    Login Daten Ermitteln
     Loginseite Öffnen
     Benutzer Anmelden    ${login_daten}[username]    ${login_daten}[passwort]    totpcode=${login_daten}[totpcode]
