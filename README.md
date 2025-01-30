@@ -11,4 +11,6 @@
 - VSCode ist eine moderne IDE mit der besten Robot Framework Unterstützung
 - Robotcode macht VSCode Robot-Framework-fähig
 
-
+## Links:
+- Ausführliche Dokumentation um VSCode einzurichten: https://docs.robotframework.org/docs/getting_started/ide
+- Ausführliche Dokumentation um Browser Automatisierung einzurichten: https://docs.robotframework.org/docs/different_libraries/browser
